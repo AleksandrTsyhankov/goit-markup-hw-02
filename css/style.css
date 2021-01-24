@@ -12,6 +12,8 @@ body {
     letter-spacing: 0.03em;
 }
 
+/* ===== ===== */
+
 /* ===== HEADER===== */
 .header {
     background: var(--background-color);
