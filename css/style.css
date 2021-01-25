@@ -21,9 +21,6 @@ body {
 
 .logotype {
     text-decoration: none;
-}
-
-.logotype-web {
     font-family: var(--logo-font);
     font-weight: 700;
     font-size: 26px;
@@ -38,7 +35,6 @@ body {
     font-size: 26px;
     line-height: 31px;
     /* identical to box height */
-
 }
 
 .logotype-studio-light-theme {
@@ -64,10 +60,9 @@ body {
 }
 
 .nav-list-link:hover,
-.nav-list-link:focus {
-    color: var(--accent-color);
-}
-
+.nav-list-link:focus,
+.header-mail-link:hover,
+.header-mail-link:focus,
 .active_link {
     color: var(--accent-color);
 }
@@ -84,11 +79,6 @@ body {
     line-height: 1.143;
     letter-spacing: 0.02em;
     color: var(--text-color);
-}
-
-.header-mail-link:hover,
-.header-mail-link:focus {
-    color: var(--accent-color);
 }
 
 .header-phone-link{
@@ -138,9 +128,11 @@ body {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    cursor: pointer;
 }
 
 /* ===== END HERO ===== */
+
 .features {
     background:var(--background-color);
 }
@@ -170,6 +162,10 @@ body {
     background:var(--background-color);
 }
 
+.specialization-list {
+    list-style-type: none;
+}
+
 .specialization-title {
     font-weight: 700;
     font-size: 36px;
@@ -181,6 +177,10 @@ body {
 
 .our-team {
     background: #F5F4FA;
+}
+
+.our-team-list {
+    list-style-type: none;
 }
 
 .our-team-item-title {
@@ -240,6 +240,9 @@ body {
 /* ----------- ПОРТФОЛИО ---------- */
 
 /* ===== MAIN ===== */
+.filter-list {
+    list-style-type: none;
+}
 
 .filter-list-button {
     font-family: inherit;
@@ -252,6 +255,7 @@ body {
     color: var(--title-color);
     background: #F5F4FA;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .filter-list-button:hover,
@@ -260,6 +264,10 @@ body {
     background: var(--accent-color);
     /* shadow-middle */
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px
+}
+
+.projects-list {
+    list-style-type: none;
 }
 
 .projects-list-title {
