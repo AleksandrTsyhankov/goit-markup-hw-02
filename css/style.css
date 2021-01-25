@@ -63,6 +63,8 @@ body {
 .nav-list-link:focus,
 .header-mail-link:hover,
 .header-mail-link:focus,
+.header-phone-link:hover,
+.header-phone-link:focus,
 .active_link {
     color: var(--accent-color);
 }
@@ -89,11 +91,6 @@ body {
     line-height: 1.143;
     letter-spacing: 0.02em;
     color: var(--text-color);
-}
-
-.header-phone-link:hover,
-.header-phone-link:focus {
-    color: var(--accent-color);         
 }
 /* ===== END HEADER ===== */
 
